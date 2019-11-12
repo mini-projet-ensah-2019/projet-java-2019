@@ -9,7 +9,7 @@ import ma.porjet.ensah2019.Vols.Vol;
 public class Main {
 
 	public static void main(String[] args) {
-	
+
 		int choix=1;
 
 		Scanner clavier = new Scanner(System.in);
@@ -34,7 +34,9 @@ public class Main {
 			         Menu.listeVols();
 			    break;
 		       case 6:
-		           	 System.out.println("*********Au revoir!!!!*********");
+                 System.out.println("*******************************");
+		           	 System.out.println("*        Au revoir!!!!        *");
+                 System.out.println("*******************************");
 			         System.exit(0);
 			    break;
 		       default:
