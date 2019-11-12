@@ -7,13 +7,11 @@ import java.util.Scanner;
 import ma.porjet.ensah2019.Vols.Vol;
 
 public class Main {
-     
+
 	public static void main(String[] args) {
 	
-		
-		System.out.println();
-		int choix=1;   
-		
+		int choix=1;
+
 		Scanner clavier = new Scanner(System.in);
 		do {
 		    Menu.Acceuil();
@@ -48,5 +46,5 @@ public class Main {
 		}while(choix!=6);
        clavier.close();
 	}
-  
+
 }
